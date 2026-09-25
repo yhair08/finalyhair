@@ -1,0 +1,400 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.portada-licoreria {
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    overflow: hidden;
+}
+
+
+
+.portada-licoreria .contenido-portada .texto-destacado {
+    color: #d4af37;
+}
+
+.portada-licoreria .contenido-portada .subtitulo-portada {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.portada-licoreria .contenido-portada .descripcion-portada {
+    font-size: 1rem;
+    margin: 0;
+    color: #cccccc;
+}
+
+.menu-cuenta {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.boton-menu-cuenta {
+    background-color: #d4af37;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-menu-cuenta:hover {
+    background-color: #b8972b;
+}
+
+.opciones-cuenta {
+    display: none;
+    position: absolute;
+    background-color: #1a1a1a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    z-index: 3;
+    overflow: hidden;
+    margin-top: 5px;
+    border: 1px solid #333333;
+}
+
+.opciones-cuenta a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.2s ease;
+}
+
+.opciones-cuenta a:hover {
+    background-color: #d4af37;
+    color: #121212;
+}
+
+.menu-cuenta:hover .opciones-cuenta {
+    display: block;
+}
+
+.catalogo-productos {
+    padding: 60px 5%;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.categoria-productos {
+    scroll-margin-top: 24px;
+    margin-bottom: 56px;
+}
+
+.categoria-productos > h3 {
+    max-width: 1200px;
+    margin: 0 auto 24px;
+    color: #d4af37;
+    font-size: 1.6rem;
+}
+
+.mensaje-proximamente {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #bdbdbd;
+}
+
+.titulo-catalogo {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.titulo-catalogo .texto-destacado {
+    color: #d4af37;
+}
+
+.lista-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ficha-producto {
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.ficha-producto:hover {
+    transform: translateY(-5px);
+    border-color: #d4af37;
+}
+
+.ficha-producto img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.ficha-producto h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.ficha-producto .precio-producto {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.boton-comprar {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.boton-comprar:hover {
+    background-color: #b8972b;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.portada-licoreria {
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    overflow: hidden;
+}
+
+.portada-licoreria .fondo-portada {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    -webkit-mask-image: linear-gradient(to right, transparent, black);
+    mask-image: linear-gradient(to right, transparent, black);
+    z-index: 1;
+}
+
+.portada-licoreria .contenido-portada {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.portada-licoreria .contenido-portada h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.portada-licoreria .contenido-portada .texto-destacado {
+    color: #d4af37;
+}
+
+.portada-licoreria .contenido-portada .subtitulo-portada {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.portada-licoreria .contenido-portada .descripcion-portada {
+    font-size: 1rem;
+    margin: 0;
+    color: #cccccc;
+}
+
+.menu-cuenta {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.boton-menu-cuenta {
+    background-color: #d4af37;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-menu-cuenta:hover {
+    background-color: #b8972b;
+}
+
+.opciones-cuenta {
+    display: none;
+    position: absolute;
+    background-color: #1a1a1a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    z-index: 3;
+    overflow: hidden;
+    margin-top: 5px;
+    border: 1px solid #333333;
+}
+
+.opciones-cuenta a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.2s ease;
+}
+
+.opciones-cuenta a:hover {
+    background-color: #d4af37;
+    color: #121212;
+}
+
+.menu-cuenta:hover .opciones-cuenta {
+    display: block;
+}
+
+.catalogo-productos {
+    padding: 60px 5%;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.titulo-catalogo {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.titulo-catalogo .texto-destacado {
+    color: #d4af37;
+}
+
+.lista-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ficha-producto {
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.ficha-producto:hover {
+    transform: translateY(-5px);
+    border-color: #d4af37;
+}
+
+.ficha-producto img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.ficha-producto h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.ficha-producto .precio-producto {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.boton-comprar {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #121212;
+    padding: 10% 20%;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.boton-comprar:hover {
+    background-color: #b8972b;
+}
+.enlace-regresar {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    background-color: transparent;
+    color: #d4af37;
+    border: 1px solid #d4af37;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+.enlace-regresar:hover {
+    background-color: #d4af37;
+    color: #121212;
+}
+.titulo-categoria {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.titulo-categoria {
+    color: #fffefc;
+}
+.categoria-productos {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.categoria-productos {
+    color: #fffefc;
+}

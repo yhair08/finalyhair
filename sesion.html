@@ -1,0 +1,38 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#121212">
+    <title>Iniciar sesión | Licores Los Primos</title>
+    <link rel="stylesheet" href="css/sesion.css">
+</head>
+<body>
+    <main class="pagina-inicio-sesion">
+        <a class="marca-sitio" href="index.html">Licores <span>Los Primos</span></a>
+
+        <section class="panel-inicio-sesion" aria-labelledby="login-title">
+            <p class="etiqueta-seccion">Tu cuenta</p>
+            <h1 id="login-title">Iniciar sesión</h1>
+            <p class="descripcion-formulario">Ingresa tus datos para continuar.</p>
+
+            <form action="/login-process" method="POST" class="formulario-inicio-sesion">
+                <div class="grupo-campo">
+                    <label for="login-email">Correo electrónico</label>
+                    <input type="email" id="login-email" name="email" placeholder="nombre@correo.com" autocomplete="email" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="login-password">Contraseña</label>
+                    <input type="password" id="login-password" name="password" placeholder="Ingresa tu contraseña" autocomplete="current-password" required>
+                </div>
+
+                <button type="submit" class="boton-primario">Ingresar</button>
+            </form>
+
+            <p class="invitacion-registro">¿Aún no tienes cuenta? <a href="registro.html">Regístrate</a></p>
+        </section>
+
+        <a class="enlace-regresar" href="index.html">&larr; Volver al inicio</a>
+    </main>
+</body>
+</html>

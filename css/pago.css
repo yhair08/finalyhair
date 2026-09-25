@@ -1,0 +1,92 @@
+body{
+  background-color: #1a1a1a; 
+}
+.panel-pago {
+  max-width: 500px;
+  margin: 60px auto 20px auto;
+  background-color: #1a1a1a;
+  border: 1px solid #d4af37;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.panel-pago h2 {
+  color: #d4af37;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.tabla-datos-pago {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.tabla-datos-pago td {
+  padding: 8px 4px;
+  text-align: left;
+}
+
+.tabla-datos-pago label {
+  color: white;
+  font-size: 15px;
+}
+.texto-total {
+    color: aliceblue;
+}
+.campo-pago {
+  width: 100%;
+  padding: 8px;
+  background-color: #121212;
+  border: 1px solid #333;
+  color: white;
+  border-radius: 4px;
+}
+
+.campo-pago:focus {
+  border-color: #d4af37;
+  outline: none;
+}
+
+.resumen-pago {
+  border-top: 1px dashed #333;
+  padding-top: 15px;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.resumen-pago b {
+  color: #d4af37;
+  font-size: 22px;
+}
+.boton-pagar{
+    display: inline-block;
+    background-color: #d4af37;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.boton-pagar:hover {
+    background-color: #b8972b;
+}
+.enlace-regresar {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    background-color: transparent;
+    color: #d4af37;
+    border: 1px solid #d4af37;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+.enlace-regresar:hover {
+    background-color: #d4af37;
+    color: #121212;
+}

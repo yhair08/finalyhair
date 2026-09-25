@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-width: 320px;
+	min-height: 100vh;
+	background: radial-gradient(ellipse at 50% 42%, #292315 0, #181714 38%, #111111 76%);
+	color: #f5f5f5;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+	color: inherit;
+}
+
+.pagina-inicio-sesion {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 20px;
+}
+
+.marca-sitio {
+	margin-bottom: 28px;
+	color: #d4af37;
+	font-size: 1.25rem;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.marca-sitio span {
+	color: #f5f5f5;
+}
+
+.panel-inicio-sesion {
+	width: min(100%, 420px);
+	padding: 36px;
+	background: #1a1a1a;
+	border: 1px solid #3b3525;
+	border-top: 3px solid #d4af37;
+	border-radius: 6px;
+	box-shadow: 0 22px 70px rgba(0, 0, 0, 0.38);
+}
+
+.etiqueta-seccion {
+	margin: 0 0 8px;
+	color: #d4af37;
+	font-size: 0.75rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h1 {
+	margin: 0;
+	font-size: 1.8rem;
+}
+
+.descripcion-formulario {
+	margin: 8px 0 28px;
+	color: #bdbdbd;
+	line-height: 1.5;
+}
+
+.formulario-inicio-sesion {
+	display: grid;
+	gap: 20px;
+}
+
+.grupo-campo {
+	display: grid;
+	gap: 8px;
+}
+
+.grupo-campo label {
+	color: #e6e6e6;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+.grupo-campo input {
+	width: 100%;
+	min-height: 46px;
+	padding: 0 13px;
+	border: 1px solid #484848;
+	border-radius: 4px;
+	outline: none;
+	background: #121212;
+	color: #f5f5f5;
+	font: inherit;
+}
+
+.grupo-campo input::placeholder {
+	color: #858585;
+}
+
+.grupo-campo input:focus {
+	border-color: #d4af37;
+	box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.16);
+}
+
+.boton-primario {
+	min-height: 46px;
+	margin-top: 4px;
+	border: 0;
+	border-radius: 4px;
+	background: #d4af37;
+	color: #121212;
+	font: inherit;
+	font-weight: 700;
+	cursor: pointer;
+	transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.boton-primario:hover {
+	background: #e3c354;
+}
+
+.boton-primario:active {
+	transform: translateY(1px);
+}
+
+.invitacion-registro {
+	margin: 24px 0 0;
+	color: #bdbdbd;
+	font-size: 0.9rem;
+	text-align: center;
+}
+
+.invitacion-registro a {
+	color: #e6c65c;
+	font-weight: 600;
+	text-underline-offset: 3px;
+}
+
+.enlace-regresar {
+	margin-top: 24px;
+	color: #bdbdbd;
+	font-size: 0.9rem;
+	text-decoration: none;
+}
+
+.enlace-regresar:hover {
+	color: #d4af37;
+}
+
+@media (max-width: 480px) {
+	.pagina-inicio-sesion {
+		justify-content: flex-start;
+		padding: 32px 16px;
+	}
+
+	.marca-sitio {
+		margin: 12px 0 24px;
+	}
+
+	.panel-inicio-sesion {
+		padding: 28px 22px;
+	}
+}
