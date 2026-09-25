@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Licores Los Primos - Compra</title>
+  <link rel="stylesheet" href="css/pago.css">
+</head>
+<body>
+
+  <a href="index.html" class="enlace-regresar">← Volver</a>
+
+    <div class="panel-pago">
+      <h2>Datos de Pago</h2>
+      <form>
+        <table class="tabla-datos-pago">
+          <tr>
+            <td><label>Nombre:</label></td>
+            <td><input type="text" placeholder="Tu nombre" class="campo-pago"></td>
+          </tr>
+          <tr>
+            <td><label>Dirección:</label></td>
+            <td><input type="text" placeholder="Calle y número" class="campo-pago"></td>
+          </tr>
+          <tr>
+            <td><label>Tarjeta:</label></td>
+            <td><input type="text" placeholder="0000 0000 0000 0000" class="campo-pago"></td>
+          </tr>
+            <tr>
+                <td><label>Vence:</label></td>
+                <td><input type="text" placeholder="MM/AA" class="campo-pago"></td>
+            </tr>
+            <tr>
+                <td><label>CVV:</label></td>
+                <td><input type="password" placeholder="123" class="campo-pago"></td>
+            </tr>
+
+        </table>
+
+        <div class="resumen-pago">
+          <p class="texto-total">Total: <b id="total">$0 COP</b></p>
+        </div>
+
+        <button type="submit" class="boton-pagar">PAGAR AHORA</button>
+      </form>
+    </div>
+
+  </div>
+
+</body>
+</html>
